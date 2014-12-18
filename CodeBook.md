@@ -1,6 +1,6 @@
-### CodeBook
+## CodeBook
 
-## Experimental design and background
+### Experimental design and background
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) 
 wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 
@@ -15,7 +15,7 @@ a Butterworth low-pass filter into body acceleration and gravity. The gravitatio
 only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, 
 a vector of features was obtained by calculating variables from the time and frequency domain.
 
-## Raw data
+### Raw data
 For each record it is provided:
  * Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
  * Triaxial Angular velocity from the gyroscope. 
@@ -23,7 +23,7 @@ For each record it is provided:
  * Its activity label. 
  * An identifier of the subject who carried out the experiment.
 
-##Data dictionary
+### Data dictionary
 For the tidy data set with the average of each variable for each activity and each subject.
  * subject - The identifier of the subject who performed the activity for each window sample. Its range is from 1 to 30. Grouped on it
  * activity - Activity name: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING. Grouped on it
