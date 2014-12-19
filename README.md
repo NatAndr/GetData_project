@@ -1,5 +1,20 @@
-### Describing for the script run_analysis.R
+## Describing for the script run_analysis.R
 
+### Initial dataset
+
+The initial dataset includes the following files:
+ * README.txt'
+ * features_info.txt - Shows information about the variables used on the feature vector.
+ * features.txt - List of all features.
+ * activity_labels.txt - Links the class labels with their activity name.
+ * train/X_train.txt - Training set.
+ * train/y_train.txt - Training labels.
+ * test/X_test.txt - Test set.
+ * test/y_test.txt - Test labels.
+ 
+### Script description
+
+The goal is to prepare tidy data that can be used for later analysis. 
 Using tidyr and stringr libraries 
 
 1. Create array of Variables
